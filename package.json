@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "webpack-dev-server",
     "build": "rm -rf dist && webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,6 +12,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@webpack-cli/serve": "^1.5.1",
     "css-loader": "^3.2.0",
     "dart-sass": "^1.23.7",
     "file-loader": "^5.0.2",
@@ -24,6 +26,6 @@
     "stylus-loader": "^3.0.2",
     "webpack": "^4.41.2",
     "webpack-cli": "^3.3.10",
-    "webpack-dev-server": "^3.9.0"
+    "webpack-dev-server": "^3.11.2"
   }
 }
